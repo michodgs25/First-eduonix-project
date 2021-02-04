@@ -22,13 +22,17 @@
         <!--User address, items will be delivered to this address-->
         <label for="city">City:</label>
         <input type="text" name="city" id="city" placeholder="city" size="10px" minlength="8" maxlength="10" required>
+        <!--Shipping options for user to choose-->
+        <p>Choose your shipping</p>
         <select name="shipping" id="shipping">
-            <br>
-            <!--Shipping options for user to choose-->
             <option value="Free shopping super saver">Free shopping super saver</option>
             <option value="Two day shipping">Two day shipping</option>
             <option value="One day shipping">One day shipping</option>
         </select>
+        <p>Choose your payment method:</p>
+        <label>
+            <input type="radio" name="payment" value="paypal">
+        </label>
     </form>
 </body>
 
