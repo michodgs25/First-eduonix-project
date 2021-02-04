@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <!--Login input example-->
+    <form method="GET">
+        <!--User inputs email, must be between 8-12 characters-->
+        <label for="email">Email:</label>
+        <input type="text" size="30px" min="8" max="12" name="email" placeholder="Email" id="email" required>
+        <!--User inputs password, must be between 8-12 characters-->
+        <label for="email">Password:</label>
+        <input type="password" size="30px" min="8" max="12" name="password" placeholder="Password" id="password" required>
+        <!--Submit button, once details are correct user can submit-->
+        <input type="submit">
+    </form>
+</body>
+
+</html>
