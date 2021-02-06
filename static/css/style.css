@@ -3,6 +3,7 @@ img {
     height: 7.5em;
     width: 12.5em;
 }
+/*end*/
 
 /*External css styling for templates*/
 h1 {
@@ -15,3 +16,19 @@ p {
     font-family: monospace;
     font-size: 50px;
 }
+/*end*/
+
+/*class example*/
+.classes-header {
+    color: blueviolet;
+    font-family: Impact;
+    font-size: 200px;
+}
+/*end*/
+/*id example*/
+#id-paragraph {
+    color: crimson;
+    font-family: serif;
+    font-size: 100px;
+}
+/*end*/
