@@ -1,45 +1,185 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome michodgs25,
+<h2 align="center">Eduonix project</h2>
+<div align="center">
+<img src="#" 
+     target="_blank" rel="noopener" alt="Eduonix">
+</div>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# Project Overview
 
-## Gitpod Reminders
+__Learning HTML, CSS JavaScript__
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+*The core purpose of this repository is to explore the impact JavaScript has and how it takes a static looking webpage/platform to an intuitive site that interacts with users.*
 
-`python3 -m http.server`
+## Contents
+* [Project purpose](#Project-Purpose)
+     * [UX](#UX)
+* [User-Stories](#User-Stories)
+* [Features](#Features)
+     * [issues-and-bugs](#issues-and-bugs)
+* [Technologies](#Technologies)
+     * [Languages](#Languages)
+* [Testing](#Testing)
+* [Acknowledgements](#Acknowledgements)
+     * [External-Media](#External-Media)
 
-A blue button should appear to click: *Make Public*,
+-------------
 
-Another blue button should appear to click: *Open Browser*.
+# Project purpose
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The purpose of this project is to learn HTML, CSS, JavaScript and other similar languages to gain a greater understanding of what makes a webpage pop.
+ 
 
-A blue button should appear to click: *Make Public*,
+----------
+# UX
 
-Another blue button should appear to click: *Open Browser*.
+## User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-  As a first time user I want to be able to navigate each section of the platform with ease, because this helps me find the product I want.
 
-## Updates Since The Instructional Video
+-  As a frequent user I can view the gym fitness plans, so that I can purchase a subscription product without having to phone up or pay upon arrival.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-  As a user I want to purchase my favorite Merchandise online with ease, because I want to support the gym financially beyond paying a membership.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a returning user, I would like to see view the highest rated products, as I like to know which products are most popular.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- As a frequent user, I want the site to be familiar by using fitness station branding akin to the gym itself, as this reaffirms that I on the right website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-  As a returning user, I would like to view all my previous orders, so I can keep track of my purchases.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-  As a user, I want the ability to edit my profile details, if I move house or if I need to update my payment details.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Main site content - Purchasing products
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-  As a returning member, I want to view all my purchases on one page, this helps me keep a log of what I have purchased and when.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-  As a new user, I want to recieve a confirmation of my purchase to ensure my payment has gone through.
+
+#### Searching, Sorting and Reviewing products
+
+-  As a frequent user, I want to be able to sort products from cheapest to most expensive, availability, gender, as this helps me choose a product that best suits my individual requirements.
+
+-  As a user I'd like to be able to search products anywhere on the site, this helps me find the product I am looking for quicker.
+
+- As a user, after I have made a purchase I would like to leave review of the product I have bought, because I want to provide my opinion of a product.
+
+- As the user who wrote the review, I would like to see my review below the product I had just reviewed.
+
+- As a first time buyer I would like to give constructive feedback on products.
+
+#### Contact the Gym page
+
+- As a new member to the gym, I want to be able to check the gym opening& closing times, so I can plan my visit.
+
+- A a frequent user, I want to be to contact the gym directly, so I can ask any questions.
+
+#### Shopping bag and Checkout
+
+-  As a user I want a notification when I make a purchase, so I know that the payment has gone through.
+
+-  As a user I can view all selected products on one page with the total cost, so I know exactly what products I am purchasing.
+
+-  As a user, I want to be able to add or remove products from the cart, so I can update my shopping bag at will.
+
+-  As a frequent user, I want to be able to select the size(if applicable) and quantity of the product, so the product suits my personal requirements.
+
+-  As a returning user I want the checkout to remember all my details, this saves time and I get my product quicker.
+
+-  As an elderly user I want to recieve confirmation that my order has been placed and see it in my order history, this reassures me that the order has been placed.
+
+
+#### Login and Registration
+
+-  As a returning user, when I have registered and signed in, I want the platform to remember my login details, this ensure easy and secure access to the site.
+
+-  As a first time user, I want to recieve a verify email link, so that I can register to the site securely.
+
+-  As a technology-knowledge limited user I want to be able to reset my password in case I forget, as this would be time consuming and may not be able to access the site.
+
+-  As a frequent user I would like to be able to sign in or out of my account with ease, as this allows a smooth opening and exit from the platform and keeps my details safe.
+
+
+## Gym owner
+
+#### Updating Products
+
+-  As the gym owner I want to view all products on my site, so I know what I am selling.
+
+- As the gym owner I want to edit product information, so I can control costs.
+
+- As the gym owner I want to be able to remove products from the site, if no longer selling those products. 
+
+- As the gym owner I want to be able to limit the amount of products one user can purchase, so I can control stock quantity.
+
+----
+
+
+# Features
+
+
+### Html
+
+* *The homepage consists of navigation bar(or mobile if using mobile devices), see navigation feature for details in navigation feature.*
+   
+-------
+
+### CSS
+
+* **
 
 --------
 
-Happy coding!
+### JavaScript
+**
+
+---------
+
+### React JS
+
+   
+---------
+
+### Issues and bugs
+** 
+
+-------
+
+## Libraries and Frameworks 
+
+
+---------
+
+## Languages
+
+  - In this project I used *HTML5*, *CSS*, *JAVASCRIPT*, *REACTJS*.
+   
+
+## Technologies
+
+These technologies helped create, shape and test my code
+
+-------
+
+## Testing
+
+------
+  
+
+## Deployment
+
+#### Requirements 
+You will need the following tools& accounts installed on your system and an account with:
+
+An IDE such as Visual Studio, gitpod, Code, or like this project gitpod
+------
+
+## Acknowledgements
+
+I would like to acknowledge Eduonix for providing insightful tutorials on how to implement code.
+
+-----
+  
+ #### All code adapted is for educational purposes only and not for commercial gain.
+
+## External Media 
+*Any external media taken, are used for educational purposes only.*
