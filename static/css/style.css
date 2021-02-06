@@ -1,4 +1,17 @@
+/*image sizing for image templates file*/
 img {
     height: 7.5em;
     width: 12.5em;
+}
+
+/*External css styling for templates*/
+h1 {
+    color: red;
+    font-family: fantasy;
+    font-size: 100px;
+}
+p {
+    color: royalblue;
+    font-family: monospace;
+    font-size: 50px;
 }
