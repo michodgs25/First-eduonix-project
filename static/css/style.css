@@ -25,6 +25,7 @@ p {
     font-size: 200px;
 }
 /*end*/
+
 /*id example*/
 #id-paragraph {
     color: crimson;
@@ -32,3 +33,14 @@ p {
     font-size: 100px;
 }
 /*end*/
+
+/*div examples*/
+.bluebox {
+    color: rgb(127, 127, 177);
+}
+.redbox {
+    color: rgb(255, 0, 0);
+}
+.greenbox {
+    color: rgb(0, 128, 0);
+}
