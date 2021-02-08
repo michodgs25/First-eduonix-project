@@ -11,6 +11,7 @@ h1 {
     font-family: fantasy;
     font-size: 100px;
 }
+/*
 p {
     color: royalblue;
     font-family: monospace;
@@ -34,13 +35,26 @@ p {
 }
 /*end*/
 
-/*div examples*/
+/*div and span examples*/
+div {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
 .bluebox {
-    color: rgb(127, 127, 177);
+    background-color: rgb(1, 1, 255);
+    color: rgb(255, 255, 255);
 }
 .redbox {
-    color: rgb(255, 0, 0);
+    background-color: rgb(255, 1, 1);
+    color: rgb(255, 255, 255);
 }
 .greenbox {
-    color: rgb(0, 128, 0);
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
 }
+.social {
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+/*end*/
