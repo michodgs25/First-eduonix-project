@@ -100,3 +100,17 @@ div {
     margin: 10px;
 }
 /*end*/
+/*float box positioning*/
+.floatbox1 {
+    background-color: rgb(1, 1, 255);
+    float: left;
+}
+.floatbox2 {
+    background-color: rgb(255, 1, 1);
+    float: right;
+}
+.floatbox3 {
+    background-color: rgb(0, 128, 0);
+    float: initial;
+}
+/*Float box text*/
