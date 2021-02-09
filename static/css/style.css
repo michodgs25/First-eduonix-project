@@ -66,25 +66,25 @@ div {
 /*end*/
 
 /*box background examples*/
-.orangebox {
-    background-color: rgb(255, 165, 0);
-    color: rgb(255, 255, 255);
+.imageboxone {
+    height: 100px;
+    width: min-content;
+    background-image: url(https://wallpapercave.com/wp/wp2501119.jpg);
+    background-size: 100% 100%;
 }
-.imagebox {
+.imageboxtwo {
     height: 100px;
     background-image: url(https://wallpapercave.com/wp/wp2501119.jpg);
     background-repeat: no-repeat;
     background-origin: content-box;
     background-size: 100% 100%;
 }
-.imageboxtwo {
-    height: 200px;
+.imageboxthree {
+    height: 200px; 
     background-image: url(https://wallpapercave.com/wp/wp2501119.jpg);
     background-repeat: no-repeat;
     background-origin: border-box;
     background-size: 100%;
-    background-color: rgb(255, 241, 52);
-    color: rgb(255, 255, 255);
 }
 /*end*/
 /*box background text general& "app" styled*/
