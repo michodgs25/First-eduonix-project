@@ -5,7 +5,7 @@ img {
 }
 /*end*/
 
-/*External css styling for templates*/
+/*---------External css styling for templates*/
 h1 {
     color: red;
     font-family: fantasy;
@@ -13,7 +13,7 @@ h1 {
 }
 /*end*/
 
-/*class example*/
+/*----------------------class example*/
 .classes-header {
     color: blueviolet;
     font-family: Impact;
@@ -21,7 +21,7 @@ h1 {
 }
 /*end*/
 
-/*id example*/
+/*----------------------id example*/
 #id-paragraph {
     color: crimson;
     font-family: serif;
@@ -29,7 +29,7 @@ h1 {
 }
 /*end*/
 
-/*div and span examples*/
+/*-------------------------------------div and span examples*/
 div {
     height: auto;
     width: auto;
@@ -51,7 +51,7 @@ div {
     background-color: rgb(0, 128, 0);
     color: rgb(255, 255, 255);
 }
-/*box text general& "social" amplified*/
+/*-------------------------------------box text general& "social" amplified*/
 .social {
     font-weight: bolder;
     font-variant: small-caps;
@@ -65,7 +65,7 @@ div {
 }
 /*end*/
 
-/*box background examples*/
+/*----------------------------------------box background examples*/
 .imageboxone {
     height: 100px;
     width: min-content;
@@ -87,7 +87,7 @@ div {
     background-size: 100%;
 }
 /*end*/
-/*box background text general& "app" styled*/
+/*---------------------------------box background text general& "app" styled*/
 .app {
     font-weight: 800;
     font-style: italic;
@@ -100,7 +100,7 @@ div {
     margin: 10px;
 }
 /*end*/
-/*float box positioning*/
+/*-------------------------------------float box positioning*/
 .floatbox1 {
     background-color: rgb(1, 1, 255);
     position: fixed;
@@ -113,9 +113,8 @@ div {
     background-color: rgb(0, 128, 0);
     position: absolute;
 }
-/*Float box text*/
 
-/*position box example*/
+/*-------------------------------------position box example*/
 .position1 {
     background-color: rgb(1, 1, 255);
     top: 50px;
@@ -137,7 +136,7 @@ div {
     font-family: cursive;
 }
 /*end*/
-/*display example*/
+/*--------------------------------------display example*/
 .displaybox1 {
     display: inline-flex;
     background-color: rgb(1, 1, 255);
@@ -153,5 +152,36 @@ div {
 .displaytext {
     text-decoration: underline;
     font-family: cursive;
+    font-style: italic;
+}
+/*end*/
+/*--------------------------------------text decoration box example*/
+.decorationbox1 {
+    display: inline-flex;
+    background-color: rgb(1, 1, 255);
+}
+.decorationbox2{
+    display: inline-flex;
+    background-color: rgb(255, 1, 1);
+}
+.decorationbox3 {
+    display: inline-flex;
+    background-color: rgb(0, 128, 0);
+}
+/*------------------------------------text decoration styles*/
+#decortext1 {
+    text-decoration: line-through;
+    font-family: cursive;
+    font-style: italic;
+}
+#decortext2 {
+    text-decoration: wavy;
+    font-family: cursive;
+    font-style: initial;
+}
+#decortext3 {
+    text-decoration: underline;
+    font-family: cursive;
+    font-style: oblique;
 }
 /*end*/
