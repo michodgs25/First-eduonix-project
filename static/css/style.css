@@ -185,3 +185,51 @@ div {
     font-style: oblique;
 }
 /*end*/
+/*-------------------------------------text align box examples*/
+.alignbox {
+    display: grid;
+    background-color: rgb(1, 1, 255);
+}
+.alignbox2 {
+    display: grid;
+    background-color: rgb(255, 1, 1);
+}
+.alignbox3 {
+    display: grid;
+    background-color: rgb(0, 128, 0);
+}
+/*------------------------------Text variations*/
+.aligncenter {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.alignleft {
+    color: rgb(255, 255, 255);
+    font-family: Times;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+.alignright {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: 500;
+    text-align: right;
+}
+/*end*/
+/*font examples*/
+.font1 {
+    font-family: Arial;
+    font-style: italic;
+}
+.font2 {
+    font-family: Helvetica;
+    font-style: unset;
+}
+.lyrics {
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: underline;
+}
