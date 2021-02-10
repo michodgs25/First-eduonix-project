@@ -137,3 +137,21 @@ div {
     font-family: cursive;
 }
 /*end*/
+/*display example*/
+.displaybox1 {
+    display: inline-flex;
+    background-color: rgb(1, 1, 255);
+}
+.displaybox2 {
+    display: inline-flex;
+    background-color: rgb(255, 1, 1);
+}
+.displaybox3 {
+    display: inline-flex;
+    background-color: rgb(0, 128, 0);
+}
+.displaytext {
+    text-decoration: underline;
+    font-family: cursive;
+}
+/*end*/
