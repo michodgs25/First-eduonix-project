@@ -30,7 +30,7 @@ h1 {
 /*end*/
 
 /*-------------------------------------div and span examples*/
-div {
+div .bluebox .redbox .greenbox {
     height: auto;
     width: auto;
     text-align: center;
@@ -233,3 +233,49 @@ div {
     font-size: 30px;
     text-decoration: underline;
 }
+/*end*/
+/*text effects*/
+.here-comes-the-sun {
+    color: sandybrown;
+    text-decoration: underline;
+}
+.let-it-be {
+    color: rgb(0, 128, 0);
+    text-decoration: underline;
+}
+.text-effect {
+    white-space: nowrap;
+}
+.text-effect-two {
+    white-space: pre-wrap;
+}
+/*end*/
+/*image sprites*/
+.image-sprite-box {
+    display: inline;
+}
+.image-sprite-box-two {
+    display: inline;
+}
+.image-sprite-box-three {
+    display: inline;
+}
+#imageone {
+    width: 100px;
+    height: 100px;
+    background: url(https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?);
+    background-position: center;
+}
+#imagetwo {
+    width: 200px;
+    height: 200px;
+    background: url(https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?);
+    background-position: center;
+}
+#imagethree {
+    width: 300px;
+    height: 300px;
+    background: url(https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?);
+    background-position: center;
+}
+/*end*/
