@@ -265,6 +265,7 @@ div .bluebox .redbox .greenbox {
     height: 100px;
     background: url(https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?);
     background-position: center;
+    border-radius: 2em;
 }
 #imagetwo {
     width: 200px;
