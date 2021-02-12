@@ -280,3 +280,32 @@ div .bluebox .redbox .greenbox {
     background-position: center;
 }
 /*end*/
+/*image opacity*/
+.image-opacity-box {
+    height: 150px;
+    width: 200px;
+    background: url(https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?);
+    background-position: center;
+}
+#image-opacity {
+    opacity: 1;
+}
+.image-opacity-box-two {
+    height: 150px;
+    width: 200px;
+    background: url(https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?);
+    background-position: center;
+}
+#image-opacity-two {
+    opacity: 0.5;
+}
+.image-opacity-box-three {
+    height: 150px;
+    width: 200px;
+    background: url(https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?);
+    background-position: center;
+}
+#image-opacity-three {
+    opacity: 500;
+}
+/*end*/
