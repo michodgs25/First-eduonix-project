@@ -309,3 +309,35 @@ div .bluebox .redbox .greenbox {
     opacity: 500;
 }
 /*end*/
+/*List styling examples*/
+.list-one {
+    list-style-type: square;
+    font-family: 'Courier New';
+}
+.list-set-one {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 1, 255);
+    width: 220px;
+    height: 120px;
+}
+.list-two {
+    list-style: decimal-leading-zero;
+    font-family: Arial;
+    justify-content: center;
+}
+.list-set-two {
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 12, 217);
+    width: 220px;
+    height: 120px;
+    border-radius: 100px;
+}
+.list-three {
+    list-style-type: georgian;
+    font-family: Verdana;
+}
+.list-set-three {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 1, 1);
+}
+/*end*/
