@@ -310,6 +310,11 @@ div .bluebox .redbox .greenbox {
 }
 /*end*/
 /*List styling examples*/
+.list-heading {
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+}
 .list-one {
     list-style-type: square;
     font-family: 'Courier New';
@@ -330,14 +335,18 @@ div .bluebox .redbox .greenbox {
     background-color: rgb(248, 12, 217);
     width: 220px;
     height: 120px;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 .list-three {
     list-style-type: georgian;
     font-family: Verdana;
+    font-weight: 800;
 }
 .list-set-three {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 1, 1);
+    color: rgb(0, 217, 33);
+    background-image: url(https://newscdn2.weigelbroadcasting.com/dJUEH-1573075860-150539-blog-bc_nba_abc.jpg);
+    background-position: center;
+    width: 220px;
+    height: 200px;
 }
 /*end*/
