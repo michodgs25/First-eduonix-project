@@ -399,5 +399,22 @@ div.link-box-three a:active {
 }
 /*end*/
 /*2d transformations*/
-
+.transform {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, red, white, orange);
+    transform: rotate(30deg);
+}
+.transform-two {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, red, white, orange);
+    transform: scale(0.5);
+}
+.transform-three {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, red, white, orange);
+    transform: rotate(30deg);
+}
 /*end*/
