@@ -418,3 +418,23 @@ div.link-box-three a:active {
     transform: rotate(30deg);
 }
 /*end*/
+/*3D tranformations examples*/
+.transform-3d {
+    width: 100px;
+    height: 100px;
+    background-color: #ceb3ab;
+    transform: rotateX(30deg);
+}
+.transform-3d-two {
+    width: 100px;
+    height: 100px;
+    background-color: #466365;
+    transform: rotateY(30deg);
+}
+.transform-3d-three {
+    width: 100px;
+    height: 100px;
+    background-color: #BAA5FF;
+    -webkit-transform: rotate(50deg);
+}
+/*end*/
