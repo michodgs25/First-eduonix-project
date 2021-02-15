@@ -438,3 +438,38 @@ div.link-box-three a:active {
     -webkit-transform: rotate(50deg);
 }
 /*end*/
+/*3D tranformations examples*/
+.transition-one {
+    width: 100px;
+    height: 100px;
+    background-color: #eeb902;
+    text-align: center;
+}
+.transition-one:hover {
+    height: 200px;
+    width: 200px;
+    transform: rotateX(180deg);
+}
+.transition-two {
+    width: 100px;
+    height: 100px;
+    background-color: #f45d01;
+    transition: height 1s, width 1s;
+    overflow: hidden;
+}
+.transition-two:hover {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+.transition-three {
+    width: 100px;
+    height: 100px;
+    background-color: #97cc04;
+    transition: width 1s;
+}
+.transition-three:hover {
+    height: 200px;
+    width: 200px;
+}
+/*end*/
