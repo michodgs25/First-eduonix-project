@@ -350,3 +350,34 @@ div .bluebox .redbox .greenbox {
     height: 200px;
 }
 /*end*/
+/*Link styles examples*/ 
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+a:hover {
+    color: rgb(252, 186, 3);
+    font-size: 2em;
+}
+.link-box-one {
+    background-color: rgb(248, 12, 217);
+}
+div.link-box-one a:active {
+    font-size: 4em;
+}
+.link-box-two {
+    background-color: rgb(255, 1, 1);
+}
+div.link-box-two:visited {
+    color: rgb(255, 255, 255);
+}
+.link-box-three {
+    background-color: rgb(0, 217, 33);
+}
+div.link-box-three a:active {
+    font-size: 1em;
+}
+/*end*/
