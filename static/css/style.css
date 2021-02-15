@@ -381,3 +381,23 @@ div.link-box-three a:active {
     font-size: 1em;
 }
 /*end*/
+/*Gradient examples*/
+.gradientbox {
+    width: 100px;
+    height: 150px;
+    background: linear-gradient(blue, white);
+}
+.gradientbox-two {
+    width: 100px;
+    height: 150px;
+    background: linear-gradient(to left, red, orange);
+}
+.gradientbox-three {
+    width: 100px;
+    height: 150px;
+    background: linear-gradient(to right, red, white, orange);
+}
+/*end*/
+/*2d transformations*/
+
+/*end*/
