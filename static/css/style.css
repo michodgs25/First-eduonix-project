@@ -460,7 +460,6 @@ div.link-box-three a:active {
 .transition-two:hover {
     height: 200px;
     width: 200px;
-    overflow: hidden;
 }
 .transition-three {
     width: 100px;
