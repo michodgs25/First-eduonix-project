@@ -438,7 +438,7 @@ div.link-box-three a:active {
     -webkit-transform: rotate(50deg);
 }
 /*end*/
-/*3D tranformations examples*/
+/*Transition examples*/
 .transition-one {
     width: 100px;
     height: 100px;
@@ -468,6 +468,44 @@ div.link-box-three a:active {
     transition: width 1s;
 }
 .transition-three:hover {
+    height: 200px;
+    width: 200px;
+}
+/*end*/
+/*Animation examples*/
+.animation-one {
+    width: 100px;
+    height: 100px;
+    background-color: #eeb902;
+    text-align: center;
+}
+.animation-one:hover {
+    height: 200px;
+    width: 200px;
+    -webkit-animation: myanimation 1s;
+}
+@-webkit-keyframes myanimation {
+    from{background: #f45d01}
+    to{background: #eeb902}
+}
+.animation-two {
+    width: 100px;
+    height: 100px;
+    background-color: #f45d01;
+    transition: height 1s, width 1s;
+    overflow: hidden;
+}
+.animation-two:hover {
+    height: 200px;
+    width: 200px;
+}
+.animation-three {
+    width: 100px;
+    height: 100px;
+    background-color: #97cc04;
+    transition: width 1s;
+}
+.animation-three:hover {
     height: 200px;
     width: 200px;
 }
