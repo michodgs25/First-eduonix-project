@@ -31,7 +31,7 @@ The purpose of this project is to learn HTML, CSS, JavaScript and other similar 
 # Features
 
 
-### Html
+### Html-CSS
 
 * *The homepage consists of navigation bar(or mobile if using mobile devices), see navigation feature for details in navigation feature.*
    
@@ -39,33 +39,10 @@ The purpose of this project is to learn HTML, CSS, JavaScript and other similar 
 
 ### CSS
 
-* **
-
---------
-
-### JavaScript
-**
-
----------
-
-### React JS
-
-   
----------
-
-### Issues and bugs
-** 
-
--------
-
-## Libraries and Frameworks 
-
-
----------
 
 ## Languages
 
-  - In this project I used *HTML5*, *CSS*, *JAVASCRIPT*, *REACTJS*.
+  - In this project I used *HTML5*, *CSS*.
    
 
 ## Technologies
