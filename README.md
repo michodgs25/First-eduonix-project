@@ -8,7 +8,7 @@
 
 __Learning HTML, CSS JavaScript__
 
-*The core purpose of this repository is to explore the impact JavaScript has and how it takes a static looking webpage/platform to an intuitive site that interacts with users.*
+*The core purpose of this repository is to explore the combination of HTML& CSS code and how it creates a static looking webpage/platform.*
 
 ## Contents
 * [Project purpose](#Project-Purpose)
@@ -25,7 +25,7 @@ __Learning HTML, CSS JavaScript__
 
 # Project purpose
 
-The purpose of this project is to learn HTML, CSS, JavaScript and other similar languages to gain a greater understanding of what makes a webpage pop.
+The purpose of this project is to learn HTML& CSS to gain a greater understanding of structure& design of a webpage.
 
 
 # Features
